@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor settings and SVN metadata
+.idea/
+.vscode/
+.svn/
+
+# Downloaded benchmark data (keep the small DATA/ example files)
+/DATA/FB15k/
+
+# Generated model files, metrics and training output
+/checkpoint/
+/outputs/
+/output/
+*.pt
+*.pth
+*.mdl
+*_TransE_entity_*
+*_TransE_relation_*
+*loss_record.txt
+*loss_plot.png
+/result.txt
+
+# Archived source and local backups
+/archive/
+/backup-*/
+*.bak

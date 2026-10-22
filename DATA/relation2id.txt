@@ -1,0 +1,9 @@
+Relation_d	0
+Relation_h	1
+Relation_g	2
+Relation_c	3
+Relation_b	4
+Relation_i	5
+Relation_a	6
+Relation_e	7
+Relation_f	8

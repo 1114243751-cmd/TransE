@@ -1,0 +1,16 @@
+# Normalize text to LF in the index and working tree.
+* text=auto eol=lf
+
+# Windows batch files require CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Keep binary files unchanged.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.pt binary
+*.pth binary
+*.mdl binary

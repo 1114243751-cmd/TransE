@@ -1,0 +1,29 @@
+{
+  "data": {
+    "train": "DATA/FB15k/train.txt",
+    "valid": "DATA/FB15k/valid.txt",
+    "test": "DATA/FB15k/test.txt",
+    "entity2id": "DATA/FB15k/entity2id.txt",
+    "relation2id": "DATA/FB15k/relation2id.txt",
+    "triple_order": ["head", "tail", "relation"]
+  },
+  "model": {
+    "embedding_dim": 50,
+    "learning_rate": 0.001,
+    "margin": 4.0,
+    "norm": 1,
+    "C": 0.25
+  },
+  "training": {
+    "epochs": 100,
+    "batch_size": 1024,
+    "num_workers": 0,
+    "filtered_test": false
+  },
+  "output": {
+    "prefix": "torch_",
+    "entity_embeddings": "torch_TransE_entity_50dim_batch1024",
+    "relation_embeddings": "torch_TransE_relation_50dim_batch1024",
+    "result_file": "result.txt"
+  }
+}
